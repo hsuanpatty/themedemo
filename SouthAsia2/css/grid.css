@@ -1649,9 +1649,18 @@ video {
 		width: 40%;
 	}
 
+	.md\:w-80 {
+		width: 80%;
+	}
+
 	.md\:w-90 {
 		width: 90%;
 	}
+
+	.md\pb-5 {
+		padding-bottom: 1.25rem;
+	}
+	
 
 	.md\:py-10 {
 		padding-top: 2.5rem;
