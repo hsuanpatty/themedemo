@@ -270,6 +270,7 @@ html {
     .journey .date,
     .dashed-two{
         width: 93%;
+        line-height: 30px;
     }
     .border-one{
         width: 92%;
@@ -339,6 +340,12 @@ html {
       
 }
   
+
+.bg-cover{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
 
 /*  owl  */
 .owl-carousel{
