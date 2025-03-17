@@ -1,3 +1,6 @@
+
+
+
 *,
 ::before,
 ::after {
@@ -1658,8 +1661,8 @@ video {
 	}
 
 	.md\:py-16 {
-		padding-top: 7rem;
-		padding-bottom: 4.5rem;
+		padding-top: 5rem;
+		padding-bottom: 4rem;
 	}
 
 	.md\:order-2{
