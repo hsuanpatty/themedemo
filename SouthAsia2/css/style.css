@@ -309,8 +309,9 @@ html {
     }
     
     .price{
+        font: 800 38px "微軟正黑體";
         text-align: center;
-        padding-top: 20px;
+        padding-top: 10px;
     }
 
     .feature{
@@ -319,7 +320,7 @@ html {
 
     .date-line{
         line-height: 45px;
-        font-size: 18px;
+        font-size: 20px;
     }
       
 }
