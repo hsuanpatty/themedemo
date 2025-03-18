@@ -361,8 +361,72 @@ html {
 
 
 /*  footer  */
+
 .yellow-bg{
   background-color: #d28125;  
+}
+
+
+footer {
+    font-family: "Microsoft JhengHei", 微軟正黑體;
+    color: #fff;
+    background: #0094c0;
+    font-size: 16px;
+    line-height: 2rem;
+    letter-spacing: 1px;
+    width: 100%;
+    height: auto;
+    min-height: 340px;
+    margin: 0 auto;
+    word-break: break-all;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+footer a:hover {
+    color: #ece7a1;
+}
+
+.footer-link {
+    background: #1f4165;
+    padding: 10px;
+}
+
+ul#bottom-menu {
+    width: 1080px;
+    overflow: hidden;
+    font-size: 0.875rem;
+    line-height: 2rem;
+    margin: 0 auto;
+}
+
+ul#bottom-menu li {
+    float: left;
+    list-style: none;
+}
+
+ul#bottom-menu li:after {
+    content: '｜';
+    margin: 6px;
+    color: #fff;
+}
+
+ul#bottom-menu li:last-of-type:after {
+    display: none;
+}
+
+ul#bottom-menu a {
+    color: #fff;
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+ul#bottom-menu a:hover {
+    color: #ee7b1a;
 }
 
 .contact-box-warp {
@@ -377,10 +441,13 @@ html {
     width: 33%;
 }
 
+.contact-box p{
+    font-size: 14px;
+}
+
 .contact-box p span {
     letter-spacing: 0.2rem;
 }
-
 
 .foot-wrap {
     width: 90%;
@@ -388,7 +455,6 @@ html {
     justify-content: center;
     margin: 0 auto;
     padding: 5% 0;
-    color: #fff;
 }
 
 
@@ -413,8 +479,17 @@ html {
 
 .footer-right {
     display: flex;
+    width: 60%;
     font-size: 0.8rem;
     justify-content: space-between;
+}
+
+.QR-code {
+    width: 80px;
+    height: 80px;
+    margin: 0;
+    display: block;
+    float: left;
 }
 
 @media (max-width: 1200px) {
